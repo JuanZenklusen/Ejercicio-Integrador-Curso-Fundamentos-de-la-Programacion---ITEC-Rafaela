@@ -1,0 +1,37 @@
+CALCULO Y COTIZACION DE INSUMOS PARA INSTALACION DE CERCOS PERIMETRALES.
+
+Datos de entrada fijos:
+- costo tejido (metro lineal): $ 3900.
+- costo portón (unidad): $ 35000.
+- costo poste standard (unidad): $ 4900.
+- costo poste portón (unidad): $ 5600.
+- costo tensor (unidad): $ 650.
+- costo alambre tensor (metro lineal): $ 70.
+- costo mano de obra (metro lineal): $ 1500.
+- tiradas de alambre tensor: 3 (arriba, al medio, abajo).
+- ubicación tensores: cada 4 postes.
+- desperdicio tejido / alambre: 1%.
+- separación entre postes: 6 (mts).
+
+Datos de entrada personalizables:
+- Forma del terreno (solo circular o rectangular).
+- Diámetro (circular) o largo y ancho (rectangular).
+- Cantidad de portones a instalar (mínimo 1, máximo 4).
+
+Datos de salida requeridos:
+- Mts. de tejido.
+- Mts. de alambre tensor.
+- Ctd. tensores.
+- Ctd. postes standard.
+- Ctd. postes portón.
+- Ctd. portones.
+- Subtotal insumos.
+- Subtotal mano de obra.
+- Total general.
+
+En la codificación se debe utilizar:
+- Archivo de configuración por separado.
+- Constantes.
+- Variables.
+- Al menos una función.
+- Salida formateada con printf.
